@@ -162,7 +162,7 @@ public class Main {
         FileAppender fa = FileAppender.newBuilder()
                 .setName("FILE_APPENDER")
                 .setLayout(layout)
-                .withFileName("java3b.log")
+                .withFileName("file.log")
                 .build();
         fa.start();
         // Rolling File Appender
